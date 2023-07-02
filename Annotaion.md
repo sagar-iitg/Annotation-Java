@@ -12,4 +12,36 @@ provides additional information to the jvm
 
 
 
+1. pre-defined annotaion
+2. custom annotation
+
+used on annotaion
+(called meta-annotaions)
+
+@Target
+@Retention
+@Documented
+@Inherited
+@Repeatable (java8 feature)
+
+Used on java code
+
+@Deprecated 
+@Override 
+@SupressWarnings
+@FunctionalInterface
+@SafeVarargs
+
+
+
+#### @Deprecated
+
+
+
+##### usage of Deprecated class method fields, shows you compile time warnings
+##### deprecations means no further improvement is happening on this and use new alternative method or filed instead
+##### Can be used over: Constructor, Field, LocalVariable, Method, Package, Parameter, Type(class,interface, enum)
+
+
+
 
