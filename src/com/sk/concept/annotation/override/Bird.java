@@ -1,4 +1,4 @@
-package com.sk.concept.exmaple1;
+package com.sk.concept.annotation.override;
 
 public interface Bird {
 
