@@ -150,6 +150,15 @@ Object of one type(ex: String), storing the reference of another type (example I
 
 ###### RetentionPolicy.RUNTIME: Annotations will be recorded in .classfile+ available during runtime . Usage of reflection can be done
 
+#### @Documented
+
+##### By default, annotations are ignored when java documentations is generated
+- with this meta-annotation even annotations will come in java docs
+
+#### @Repeatable
+- Allow us to use the same annotation more than one at same place
+- we can not do this before java8 
+
 
 
 
