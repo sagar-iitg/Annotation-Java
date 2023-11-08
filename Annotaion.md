@@ -19,8 +19,8 @@ provides additional information to the jvm
 1. pre-defined annotation //built in
 2. custom annotation
 
-used on annotaion
-(called meta-annotaions)
+used on annotation
+(called meta-annotations)
 
 @Target
 @Retention
