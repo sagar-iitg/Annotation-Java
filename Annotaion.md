@@ -9,10 +9,14 @@ provides additional information to the jvm
 ##### We can use this metadata information at runtime and can be certain logic in our code if wanted
 ##### How to read metadata info? Using Reflection 
 ##### Annotation can be applied at anywhere like classes, Methods, interface, fields, parameters etc
+#####  Extra Information
+
+
+##### annotations are like pre-defined pieces of code that someone else has written to help you with common tasks, behaviors, or configurations in your code, reducing the need for you to write that code from scratch. They make your code more concise, self-descriptive, and can also assist in automated tools or frameworks.
 
 
 
-1. pre-defined annotaion
+1. pre-defined annotation //built in
 2. custom annotation
 
 used on annotaion
@@ -158,6 +162,22 @@ Object of one type(ex: String), storing the reference of another type (example I
 #### @Repeatable
 - Allow us to use the same annotation more than one at same place
 - we can not do this before java8 
+
+
+
+```
+@Target
+ElementType.TYPE
+ElementType.METHOD
+ElementType.FIELD
+ElementType.CONSTRUCTOR
+ElementType.PARAMETER
+ElementType.LOCAL_VARIABLE
+ElementType.PACKAGE
+
+```
+
+
 
 
 
