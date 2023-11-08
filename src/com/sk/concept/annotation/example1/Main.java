@@ -1,4 +1,4 @@
-package com.sk.concept.annotation.exmaple1;
+package com.sk.concept.annotation.example1;
 
 public class Main {
 
