@@ -177,6 +177,13 @@ ElementType.PACKAGE
 
 ```
 
+@interface fun()
+--> informs compiler that it is annotation not a interface
+
+@Retention(RetentionPolicy.SOURCE) -Act like a comment in code
+
+
+
 
 
 
