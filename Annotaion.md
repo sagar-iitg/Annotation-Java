@@ -15,9 +15,9 @@ provides additional information to the jvm
 ##### annotations are like pre-defined pieces of code that someone else has written to help you with common tasks, behaviors, or configurations in your code, reducing the need for you to write that code from scratch. They make your code more concise, self-descriptive, and can also assist in automated tools or frameworks.
 
 
-
 1. pre-defined annotation //built in
 2. custom annotation
+
 
 used on annotation
 (called meta-annotations)
@@ -32,7 +32,7 @@ Used on java code
 
 @Deprecated 
 @Override 
-@SupressWarnings
+@SuppressWarnings
 @FunctionalInterface
 @SafeVarargs
 
